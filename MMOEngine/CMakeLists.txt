@@ -21,8 +21,7 @@ option(ENABLE_LOCKFREE_BCLIENT_BUFFERS "Enables lock free base client buffers, r
 option(ENABLE_OMIT_FRAMEPOINTER "Enables -fno-omit-frame-pointer compiler option" ON)
 
 # Set cmake find moudles path
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/build/cmake/Modules/")
-MESSAGE(STATUS "CMAKE_MODULE_PATH: " ${CMAKE_MODULE_PATH})
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
 # Add lua includes
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
