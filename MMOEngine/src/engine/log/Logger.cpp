@@ -168,7 +168,7 @@ void Logger::closeFileLogger(bool force) {
 
 void Logger::info(const char *msg, bool forcedLog) const {
 	if ((logToConsole && logLevel >= INFO) || forcedLog) {
-		printTime(false);
+		printTime(true);
 
 		System::out << " [" << name << "] " << msg << endl;
 	}
@@ -282,7 +282,7 @@ void Logger::log(const StringBuffer& msg) const {
 
 void Logger::error(const char* msg) const {
 	if (logToConsole) {
-		printTime(false, true);
+		printTime(true, true);
 
 		System::err << " [" << name << "] ERROR - " << msg << endl << flush;
 	}
@@ -299,7 +299,7 @@ void Logger::error(const StringBuffer& msg) const {
 }
 
 void Logger::fatal(const char* msg) const {
-	printTime(false, true);
+	printTime(true, true);
 
 	System::err << " [" << name << "] FATAL - " << msg << endl;
 
@@ -321,7 +321,7 @@ void Logger::fatal(const StringBuffer& msg) const {
 
 void Logger::debug(const char* msg) const {
 	if (logToConsole && logLevel >= DEBUG) {
-		printTime(false);
+		printTime(true);
 
 		System::out << " [" << name << "] DEBUG - " << msg << endl;
 	}
@@ -339,7 +339,7 @@ void Logger::debug(const StringBuffer& msg) const {
 
 void Logger::warning(const char* msg) const {
 	if (logToConsole) {
-		printTime(false);
+		printTime(true);
 
 		System::out << " [" << name << "] WARNING - " << msg << endl;
 	}
