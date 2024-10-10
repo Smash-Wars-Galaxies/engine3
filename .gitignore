@@ -55,3 +55,12 @@ MMOEngine/build
 *-prefix/
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,cmake
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
