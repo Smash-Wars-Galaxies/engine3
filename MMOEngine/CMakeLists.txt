@@ -1,9 +1,8 @@
 # Copyright (C) 2007-2019 SWGEmu
 # See file COPYING for copying conditions.
 
-cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
-
-project(engine3 CXX C)
+cmake_minimum_required(VERSION 3.13)
+project(engine3 VERSION 1.0 LANGUAGES CXX C)
 
 # Only do these if this is the main project, and not if it is included through add_subdirectory
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
@@ -23,10 +22,6 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   endif()
 endif()
 
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 include(CheckCXXSourceCompiles)
 include(CheckCXXCompilerFlag)
 
@@ -35,31 +30,14 @@ option(ENABLE_TSAN "Enables thread sanitizer compiling" OFF)
 option(ENABLE_UBSAN "Enables undefined behavior sanitizer compiling" OFF)
 option(ENABLE_NATIVE "Enables -march=native compiler option" ON)
 option(ENABLE_ODB_REFERENCES "Enables ODB_REFERENCES define" ON)
-option(ENABLE_LOCKFREE_BCLIENT_BUFFERS "Enables lock free base client buffers, requires boost thread" OFF)
 option(ENABLE_OMIT_FRAMEPOINTER "Enables -fno-omit-frame-pointer compiler option" ON)
 
 # Set cmake find moudles path
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
-# Add lua includes
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external)
-
-find_package(Lua "5.3" REQUIRED)
-include_directories(${LUA_INCLUDE_DIR})
-
-# Find mysql includes
-#find_package(MySql REQUIRED)
-
-# Find berkeley includes
-find_package(Berkeley REQUIRED)
-include_directories(${DB_INCLUDE_DIR})
 
 find_package(OpenSSL REQUIRED)
-include_directories(${OPENSSL_INCLUDE_DIR})
-
 find_package(ZLIB REQUIRED)
-include_directories(${ZLIB_INCLUDE_DIRS})
 
 find_package(Java 1.5 COMPONENTS Runtime REQUIRED)
 
@@ -67,29 +45,9 @@ set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
 set(THREADS_PREFER_PTHREAD_FLAG TRUE)
 find_package(Threads REQUIRED)
 
-find_program(CCACHE_FOUND ccache)
-
-if(CCACHE_FOUND)
-	set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
-	set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache)
-endif(CCACHE_FOUND)
-
-set(Boost_USE_STATIC_LIBS OFF)
-set(Boost_USE_MULTITHREADED ON)
-set(Boost_USE_STATIC_RUNTIME OFF)
 
 if (ENABLE_ODB_REFERENCES)
 	add_definitions(-DODB_REFERENCES)
-endif()
-
-find_package(Boost REQUIRED COMPONENTS thread)
-
-if (ENABLE_LOCKFREE_BCLIENT_BUFFERS)
-	add_definitions(-DLOCKFREE_BCLIENT_BUFFERS)
-endif()
-
-if(Boost_FOUND)
-	include_directories(${Boost_INCLUDE_DIRS})
 endif()
 
 function(check_working_cxx_atomics varname)
@@ -179,8 +137,6 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "GNU
     endif()
 endif()
 
-
-
 # Define build flags for public or private engine builds
 if (ENGINE_TYPE EQUAL 2)
 	message(STATUS "Building public engine")
@@ -190,21 +146,25 @@ else ()
 	message(STATUS "Building private engine")
 endif ()
 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/lib/unix")
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/lib/unix")
+add_library(engine3)
+add_library(Engine3::engine3 ALIAS engine3)
 
 add_subdirectory(src)
-add_subdirectory(src/testsuite3)
+add_subdirectory(testsuite3)
 
-set_source_files_properties(tags PROPERTIES GENERATED true)
-add_custom_target(engine3tags
-    COMMAND ctags -R --fields=+iaS --extra=+q src/
-    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+add_dependencies(engine3 generate-idl)
 
-set_source_files_properties(compile_commands.json PROPERTIES GENERATED true)
-add_custom_target(engine3compdb
-	COMMAND compdb -p ${CMAKE_BINARY_DIR} list > compile_commands.json
-	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+include(CMakePackageConfigHelpers)
+write_basic_package_version_file(
+    Engine3ConfigVersion.cmake
+    VERSION ${PACKAGE_VERSION}
+    COMPATIBILITY AnyNewerVersion
+)
 
-add_dependencies(engine3compdb engine3)
-
+install(
+	EXPORT 
+	Engine3Targets
+	FILE Engine3Targets.cmake
+	NAMESPACE Engine3::
+	DESTINATION lib/cmake/Engine3
+)

@@ -1,0 +1,56 @@
+target_sources(engine3
+	PRIVATE
+		ArrayIndexOutOfBoundsException.cpp
+		ConstString.cpp
+		Exception.cpp
+		Integer.cpp
+		Math.cpp
+		Object.cpp
+		StackTrace.cpp
+		String.cpp
+		StringBuffer.cpp
+		System.cpp
+		types.cpp
+		UnicodeString.cpp
+	PUBLIC
+	FILE_SET public_headers
+	TYPE HEADERS
+	BASE_DIRS ${PROJECT_SOURCE_DIR}/src
+	FILES
+		ArrayIndexOutOfBoundsException.h
+		BaseTypeVariable.h
+		Bool.h
+		Byte.h
+		Character.h
+		ConstString.h
+		DivisionByZeroException.h
+		Double.h
+		Exception.h
+		Float.h
+		Function.h
+		IllegalArgumentException.h
+		IllegalStateException.h
+		Integer.h
+		Long.h
+		Math.h
+		NumberFormatException.h
+		Object.h
+		OutOfMemoryError.h
+		Pair.h
+		Runnable.h
+		Short.h
+		SignalException.h
+		StackTrace.h
+		String.h
+		StringBuffer.h
+		System.h
+		Time.h
+		types.h
+		UnicodeString.h
+		Variable.h
+		Variant.h
+		variant.hpp
+)
+
+add_subdirectory(mersenne)
+add_subdirectory(ref)
