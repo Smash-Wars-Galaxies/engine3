@@ -18,7 +18,7 @@
 
 #include "engine/orb/control/ObjectBrokerDirector.h"
 
-#include "DOBMessageFactory.h"
+#include "engine/orb/messages/DOBMessageFactory.h"
 
 class DOBServiceHandler : public ServiceHandler {
 	DOBMessageFactory messageFactory;

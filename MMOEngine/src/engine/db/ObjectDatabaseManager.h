@@ -12,7 +12,7 @@
 #ifndef OBJECTDATABASEMANAGER_H_
 #define OBJECTDATABASEMANAGER_H_
 
-#include "DatabaseManager.h"
+#include "engine/db/DatabaseManager.h"
 
 namespace engine {
  namespace db {

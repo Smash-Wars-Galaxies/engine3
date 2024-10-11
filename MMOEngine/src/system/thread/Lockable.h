@@ -18,7 +18,7 @@
 #include "atomic/AtomicInteger.h"
 #include "atomic/AtomicReference.h"
 
-#include "Thread.h"
+#include "system/thread/Thread.h"
 
 #ifndef TRACE_REFERENCES
 #define TRACE_BLOCK_TIME

@@ -24,7 +24,7 @@
 #include "system/io/ObjectInputStream.h"
 #include "system/io/ObjectOutputStream.h"
 
-#include "PacketIndexOutOfBoundsException.h"
+#include "system/net/PacketIndexOutOfBoundsException.h"
 
 namespace sys {
   namespace net {

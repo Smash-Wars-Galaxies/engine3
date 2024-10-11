@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "ObjectUpdateToDatabaseTask.h"
+#include "engine/core/ObjectUpdateToDatabaseTask.h"
 
 ObjectUpdateToDatabaseTask::ObjectUpdateToDatabaseTask(ManagedObject* object) : Task(300000) {
 	ObjectUpdateToDatabaseTask::objectRef = object;

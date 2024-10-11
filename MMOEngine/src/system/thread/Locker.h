@@ -6,9 +6,9 @@
 #ifndef LOCKER_H_
 #define LOCKER_H_
 
-#include "Lockable.h"
-#include "Mutex.h"
-#include "ReadWriteLock.h"
+#include "system/thread/Lockable.h"
+#include "system/thread/Mutex.h"
+#include "system/thread/ReadWriteLock.h"
 
 namespace sys {
   namespace thread {

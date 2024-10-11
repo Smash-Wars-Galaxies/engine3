@@ -8,7 +8,7 @@
 
 #include "system/lang/Object.h"
 
-#include "VectorMap.h"
+#include "system/util/VectorMap.h"
 
 namespace sys {
   namespace util {

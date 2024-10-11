@@ -9,9 +9,9 @@
 
 #include "engine/orb/messages/RemoteObjectBroker.h"
 
-#include "ObjectBrokerAgent.h"
+#include "engine/orb/control/ObjectBrokerAgent.h"
 
-#include "ControlMessage.h"
+#include "engine/orb/control/ControlMessage.h"
 
 ObjectBrokerDirector::ObjectBrokerDirector() : Logger("ObjectBrokerDirector") {
 	setInfoLogLevel();

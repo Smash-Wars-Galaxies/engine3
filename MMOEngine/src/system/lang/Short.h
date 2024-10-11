@@ -6,10 +6,10 @@
 #ifndef SHORT_H_
 #define SHORT_H_
 
-#include "BaseTypeVariable.h"
+#include "system/lang/BaseTypeVariable.h"
 
-#include "String.h"
-#include "Integer.h"
+#include "system/lang/String.h"
+#include "system/lang/Integer.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"

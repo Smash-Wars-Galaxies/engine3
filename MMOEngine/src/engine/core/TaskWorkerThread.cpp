@@ -5,9 +5,9 @@
 
 #include "engine/stm/TransactionalMemoryManager.h"
 
-#include "TaskWorkerThread.h"
+#include "engine/core/TaskWorkerThread.h"
 
-#include "MetricsManager.h"
+#include "engine/core/MetricsManager.h"
 
 #include <ostream>
 #include <fstream>

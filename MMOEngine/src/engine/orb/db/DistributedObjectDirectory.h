@@ -9,7 +9,7 @@
 #include "engine/orb/object/DistributedObject.h"
 #include "engine/orb/object/DistributedObjectAdapter.h"
 
-#include "DistributedObjectMap.h"
+#include "engine/orb/db/DistributedObjectMap.h"
 
 #include "engine/util/ObjectContainer.h"
 

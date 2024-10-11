@@ -13,8 +13,8 @@
 #define AABB_H_
 
 #include "Vector3.h"
-#include "Triangle.h"
-#include "Ray.h"
+#include "engine/util/u3d/Triangle.h"
+#include "engine/util/u3d/Ray.h"
 
 namespace engine {
   namespace util {

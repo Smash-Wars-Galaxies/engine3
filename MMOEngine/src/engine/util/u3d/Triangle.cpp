@@ -9,8 +9,8 @@
  *      Author: victor
  */
 
-#include "Triangle.h"
-#include "AABBTree.h"
+#include "engine/util/u3d/Triangle.h"
+#include "engine/util/u3d/AABBTree.h"
 
 #define LOCAL_EPSILON FLT_EPSILON
 

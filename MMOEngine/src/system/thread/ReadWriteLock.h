@@ -6,7 +6,7 @@
 #ifndef READWRITELOCK_H_
 #define READWRITELOCK_H_
 
-#include "Lockable.h"
+#include "system/thread/Lockable.h"
 
 namespace sys {
   namespace thread {

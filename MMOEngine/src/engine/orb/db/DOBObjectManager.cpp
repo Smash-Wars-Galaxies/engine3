@@ -39,10 +39,10 @@
 #include "engine/orb/messages/RemoteObjectBroker.h"
 #include "engine/orb/messages/SendObjectDataMessage.h"
 
-#include "UpdateModifiedObjectsTask.h"
-#include "UpdateModifiedObjectsThread.h"
+#include "engine/orb/db/UpdateModifiedObjectsTask.h"
+#include "engine/orb/db/UpdateModifiedObjectsThread.h"
 
-#include "CommitMasterTransactionThread.h"
+#include "engine/orb/db/CommitMasterTransactionThread.h"
 
 #include "engine/util/flat_hash_map.hpp"
 

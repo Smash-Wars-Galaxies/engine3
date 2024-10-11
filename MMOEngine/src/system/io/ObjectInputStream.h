@@ -6,7 +6,7 @@
 #ifndef OBJECTINPUTSTREAM_H_
 #define OBJECTINPUTSTREAM_H_
 
-#include "Stream.h"
+#include "system/io/Stream.h"
 
 #ifndef PLATFORM_WIN
 #include <arpa/inet.h>

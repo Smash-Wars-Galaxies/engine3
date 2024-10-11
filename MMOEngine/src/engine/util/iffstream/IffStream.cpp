@@ -2,12 +2,12 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "IffStream.h"
+#include "engine/util/iffstream/IffStream.h"
 
 #include "chunks/form/Form.h"
 #include "chunks/data/Data.h"
 
-#include "exceptions.h"
+#include "engine/util/iffstream/exceptions.h"
 
 namespace IffStreamNS {
 	template<typename T>

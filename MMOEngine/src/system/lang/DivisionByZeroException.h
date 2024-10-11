@@ -6,7 +6,7 @@
 #ifndef DIVISIONBYZEROEXCEPTION_H_
 #define DIVISIONBYZEROEXCEPTION_H_
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
 namespace sys {
   namespace lang {

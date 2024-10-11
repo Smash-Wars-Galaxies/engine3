@@ -6,7 +6,7 @@
 #include "system/lang/Integer.h"
 #include "system/lang/StringBuffer.h"
 
-#include "NetworkInterface.h"
+#include "system/net/NetworkInterface.h"
 
 NetworkInterface* NetworkInterface::sinterface = nullptr;
 

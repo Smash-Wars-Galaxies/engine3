@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "ProtectedHeap.h"
+#include "system/mm/ProtectedHeap.h"
 
 ProtectedHeap::ProtectedHeap() {
 	offset = (off_t) mmapManager->getKernelHeapBase();

@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "ObjectDatabaseManager.h"
+#include "engine/db/ObjectDatabaseManager.h"
 
 using namespace engine::db;
 using namespace engine::db::berkeley;

@@ -5,9 +5,9 @@
 
 #include "system/lang/Time.h"
 
-#include "Thread.h"
+#include "system/thread/Thread.h"
 
-#include "Lockable.h"
+#include "system/thread/Lockable.h"
 
 Lockable::Lockable() {
 	threadLockHolder = nullptr;

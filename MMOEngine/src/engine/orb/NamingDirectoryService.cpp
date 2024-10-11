@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "DistributedObjectBroker.h"
+#include "engine/orb/DistributedObjectBroker.h"
 
 NamingDirectoryService::NamingDirectoryService() {
 }

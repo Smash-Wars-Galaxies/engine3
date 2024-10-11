@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "Segment.h"
+#include "engine/util/u3d/Segment.h"
 
 Segment::Segment() {
 

@@ -19,10 +19,10 @@
 #include "engine/stm/service/TransactionalSocketManager.h"
 #include "engine/stm/service/TransactionalBaseClientManager.h"
 
-#include "Transaction.h"
+#include "engine/stm/Transaction.h"
 
-#include "TransactionalReference.h"
-#include "TransactionalWeakReference.h"
+#include "engine/stm/TransactionalReference.h"
+#include "engine/stm/TransactionalWeakReference.h"
 
 namespace engine {
   namespace stm {
@@ -160,7 +160,7 @@ namespace engine {
   } // namespace stm
 } // namespace engine
 
-#include "TransactionalObjectHeader.h"
+#include "engine/stm/TransactionalObjectHeader.h"
 
 #include "engine/stm/mm/TransactionalObjectCloner.h"
 

@@ -8,11 +8,11 @@
 
 #include "system/lang.h"
 
-#include "Core.h"
+#include "engine/core/Core.h"
 
 #include "engine/stm/TransactionalMemoryManager.h"
 
-#include "ManagedObject.h"
+#include "engine/core/ManagedObject.h"
 
 namespace engine {
   namespace core {

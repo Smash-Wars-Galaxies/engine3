@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "BaseClient.h"
+#include "engine/service/proto/BaseClient.h"
 
 namespace engine {
   namespace service {

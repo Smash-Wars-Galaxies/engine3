@@ -8,7 +8,7 @@
 
 #include "engine/service/DatagramServiceClient.h"
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 namespace engine {
   namespace service {

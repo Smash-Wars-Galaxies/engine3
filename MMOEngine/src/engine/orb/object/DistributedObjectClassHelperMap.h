@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "DistributedObjectClassHelper.h"
+#include "engine/orb/object/DistributedObjectClassHelper.h"
 
 namespace engine {
   namespace ORB {

@@ -6,9 +6,9 @@
 #ifndef DISTRIBUTEDOBJECTCLASSHELPER_H_
 #define DISTRIBUTEDOBJECTCLASSHELPER_H_
 
-#include "DistributedObject.h"
-#include "DistributedObjectServant.h"
-#include "DistributedObjectAdapter.h"
+#include "engine/orb/object/DistributedObject.h"
+#include "engine/orb/object/DistributedObjectServant.h"
+#include "engine/orb/object/DistributedObjectAdapter.h"
 
 namespace engine {
   namespace ORB {

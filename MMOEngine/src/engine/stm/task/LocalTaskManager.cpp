@@ -7,7 +7,7 @@
 #include "engine/core/TaskScheduler.h"
 #include "engine/core/TaskWorkerThread.h"
 
-#include "LocalTaskManager.h"
+#include "engine/stm/task/LocalTaskManager.h"
 
 LocalTaskManager::LocalTaskManager() {
 	merging = false;

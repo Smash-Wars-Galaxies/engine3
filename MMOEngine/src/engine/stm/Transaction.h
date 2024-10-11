@@ -15,7 +15,7 @@
 
 #include "engine/util/Command.h"
 
-#include "TransactionalObjectHandle.h"
+#include "engine/stm/TransactionalObjectHandle.h"
 
 namespace engine {
   namespace stm {

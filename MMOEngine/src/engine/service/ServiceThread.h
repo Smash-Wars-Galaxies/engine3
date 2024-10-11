@@ -10,7 +10,7 @@
 
 #include "engine/log/Logger.h"
 
-#include "ServiceException.h"
+#include "engine/service/ServiceException.h"
 
 namespace engine {
   namespace service {

@@ -6,9 +6,9 @@
 #include "engine/core/Task.h"
 #include "engine/core/TaskWorkerThread.h"
 
-#include "LuaFunction.h"
-#include "Lua.h"
-#include "LuaPanicException.h"
+#include "engine/lua/LuaFunction.h"
+#include "engine/lua/Lua.h"
+#include "engine/lua/LuaPanicException.h"
 
 #ifdef CXX11_COMPILER
 #include <chrono>

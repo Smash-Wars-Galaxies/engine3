@@ -6,7 +6,7 @@
 #ifndef TCPSOCKET_H_
 #define TCPSOCKET_H_
 
-#include "Socket.h"
+#include "system/net/Socket.h"
 
 namespace sys {
   namespace net {

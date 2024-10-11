@@ -9,14 +9,14 @@
 #include <unistd.h>
 #endif
 
-#include "TaskWorkerThread.h"
-#include "TaskScheduler.h"
+#include "engine/core/TaskWorkerThread.h"
+#include "engine/core/TaskScheduler.h"
 
 #include "engine/db/ObjectDatabaseManager.h"
 
-#include "TaskManagerImpl.h"
+#include "engine/core/TaskManagerImpl.h"
 
-#include "Core.h"
+#include "engine/core/Core.h"
 
 #include "system/lang/Math.h"
 

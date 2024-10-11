@@ -4,8 +4,8 @@
 */
 #pragma once
 
-#include "String.h"
-#include "BaseTypeVariable.h"
+#include "system/lang/String.h"
+#include "system/lang/BaseTypeVariable.h"
 
 namespace sys {
   namespace lang {

@@ -12,7 +12,7 @@
 #ifndef AABBNODE_H_
 #define AABBNODE_H_
 
-#include "AABB.h"
+#include "engine/util/u3d/AABB.h"
 
 namespace sys {
  namespace io {

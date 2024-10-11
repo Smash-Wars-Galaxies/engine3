@@ -13,9 +13,9 @@
 #include "engine/service/ServiceClient.h"
 #include "engine/service/ServiceHandler.h"
 
-#include "BaseClient.h"
+#include "engine/service/proto/BaseClient.h"
 
-#include "BaseMessage.h"
+#include "engine/service/proto/BaseMessage.h"
 
 namespace engine {
   namespace service {

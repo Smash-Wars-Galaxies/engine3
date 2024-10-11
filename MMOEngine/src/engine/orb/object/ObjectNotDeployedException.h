@@ -14,7 +14,7 @@
 
 #include "engine/log/Logger.h"
 
-#include "DistributedObjectStub.h"
+#include "engine/orb/object/DistributedObjectStub.h"
 
 namespace engine {
   namespace ORB {

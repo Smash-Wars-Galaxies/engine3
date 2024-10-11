@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "StreamServiceClientProxy.h"
+#include "engine/service/StreamServiceClientProxy.h"
 
-#include "StreamServiceThread.h"
+#include "engine/service/StreamServiceThread.h"
 
 StreamServiceThread::StreamServiceThread(const String& s) : ServiceMessageHandlerThread(s) {
 	setInfoLogLevel();

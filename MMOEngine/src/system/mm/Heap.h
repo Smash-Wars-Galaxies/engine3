@@ -6,9 +6,9 @@
 #ifndef HEAP_H_
 #define HEAP_H_
 
-#include "MultimapMemoryManager.h"
+#include "system/mm/MultimapMemoryManager.h"
 
-#include "Allocator.h"
+#include "system/mm/Allocator.h"
 
 namespace sys {
   namespace mm {

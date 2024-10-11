@@ -5,10 +5,10 @@
 
 #include "system/platform.h"
 
-#include "String.h"
-#include "StringBuffer.h"
-#include "Math.h"
-#include "UnicodeString.h"
+#include "system/lang/String.h"
+#include "system/lang/StringBuffer.h"
+#include "system/lang/Math.h"
+#include "system/lang/UnicodeString.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"

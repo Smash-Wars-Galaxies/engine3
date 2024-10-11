@@ -5,7 +5,7 @@
 
 #include "engine/core/Core.h"
 
-#include "DistributedObjectBroker.h"
+#include "engine/orb/DistributedObjectBroker.h"
 
 #include "control/ObjectBrokerDirector.h"
 #include "control/ObjectBrokerAgent.h"

@@ -11,9 +11,9 @@
 
 #include "engine/db/DatabaseException.h"
 
-#include "Environment.h"
-#include "BTransaction.h"
-#include "BerkeleyDatabase.h"
+#include "engine/db/berkeley/Environment.h"
+#include "engine/db/berkeley/BTransaction.h"
+#include "engine/db/berkeley/BerkeleyDatabase.h"
 #include "engine/core/Core.h"
 #include <thread>
 

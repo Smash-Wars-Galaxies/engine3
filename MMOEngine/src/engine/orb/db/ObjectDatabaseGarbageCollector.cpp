@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "ObjectDatabaseGarbageCollector.h"
+#include "engine/orb/db/ObjectDatabaseGarbageCollector.h"
 
 void ObjectDatabaseGarbageCollector::run() {
 	/*for (int i = 0; i < databaseManager->getTotalDatabaseCount(); ++i) {

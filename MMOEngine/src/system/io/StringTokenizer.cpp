@@ -6,7 +6,7 @@
 #include "system/lang/Integer.h"
 #include "system/lang/Long.h"
 
-#include "StringTokenizer.h"
+#include "system/io/StringTokenizer.h"
 
 StringTokenizer::StringTokenizer(const String& s) {
 	str = s;

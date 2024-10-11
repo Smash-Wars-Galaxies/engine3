@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "ServiceMessageHandlerThread.h"
+#include "engine/service/ServiceMessageHandlerThread.h"
 
 ServiceMessageHandlerThread::ServiceMessageHandlerThread(const String& s) : ServiceThread(s) {
 	socket = nullptr;

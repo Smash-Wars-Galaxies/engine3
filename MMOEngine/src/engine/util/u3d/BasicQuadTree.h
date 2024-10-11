@@ -14,7 +14,7 @@
 
 #include "engine/util/u3d/BasicQuadTreeNode.h"
 
-#include "QuadTreeEntryInterface.h"
+#include "engine/util/u3d/QuadTreeEntryInterface.h"
 
 namespace engine {
   namespace util {

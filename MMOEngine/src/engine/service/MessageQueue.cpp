@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "MessageQueue.h"
+#include "engine/service/MessageQueue.h"
 
 MessageQueue::MessageQueue() : Vector<Message*>(1000, 1000), Condition(), Logger("MessageQueue") {
 	blocked = false;

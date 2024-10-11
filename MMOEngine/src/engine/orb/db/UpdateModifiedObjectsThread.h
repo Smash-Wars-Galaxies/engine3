@@ -9,7 +9,7 @@
 #include "engine/engine.h"
 
 #include "system/thread/atomic/AtomicBoolean.h"
-#include "DOBObjectManager.h"
+#include "engine/orb/db/DOBObjectManager.h"
 
 namespace engine {
 	namespace ORB {

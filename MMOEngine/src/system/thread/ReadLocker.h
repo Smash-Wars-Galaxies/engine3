@@ -12,7 +12,7 @@
 #ifndef READLOCKER_H_
 #define READLOCKER_H_
 
-#include "ReadWriteLock.h"
+#include "system/thread/ReadWriteLock.h"
 
 namespace sys {
   namespace thread {

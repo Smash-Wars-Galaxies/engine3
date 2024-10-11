@@ -11,7 +11,7 @@
 #include "engine/orb/ObjectBroker.h"
 #include "engine/orb/DistributedObjectBroker.h"
 
-#include "LocalObjectManager.h"
+#include "engine/stm/orb/LocalObjectManager.h"
 
 #include "engine/util/Command.h"
 

@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "MultimapMemoryManager.h"
+#include "system/mm/MultimapMemoryManager.h"
 
 #ifdef PLATFORM_LINUX
 #include <multimmap.h>

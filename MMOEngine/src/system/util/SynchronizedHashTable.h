@@ -12,7 +12,7 @@
 #ifndef SYNCHRONIZEDHASHTABLE_H_
 #define SYNCHRONIZEDHASHTABLE_H_
 
-#include "HashTable.h"
+#include "system/util/HashTable.h"
 
 #include "system/thread/ReadLocker.h"
 #include "system/thread/Locker.h"

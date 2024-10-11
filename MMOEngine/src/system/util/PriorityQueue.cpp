@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "PriorityQueue.h"
+#include "system/util/PriorityQueue.h"
 
 PriorityQueueEntry::PriorityQueueEntry(PriorityQueueEntry* parent,
 		PriorityQueueEntry* lnode, PriorityQueueEntry* rnode, int np) {

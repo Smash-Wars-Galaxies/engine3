@@ -12,7 +12,7 @@
 #ifndef TRIANGLENODE_H_
 #define TRIANGLENODE_H_
 
-#include "Triangle.h"
+#include "engine/util/u3d/Triangle.h"
 #include "system/util/Vector.h"
 
 namespace engine {

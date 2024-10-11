@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 15/10/16.
 //
 
-#include "GetNextFreeObjectIDMessage.h"
+#include "engine/orb/messages/GetNextFreeObjectIDMessage.h"
 
 GetNextFreeObjectIDMessage::GetNextFreeObjectIDMessage() : DOBMessage(GETNEXTFREEOBJECTIDMESSAGE, 20), doLock(false), objectID(0) {
 }

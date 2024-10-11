@@ -7,7 +7,7 @@
 
 //#define ENABLE_YIELD_BETWEEN_CROSSLOCK
 
-#include "Lockable.h"
+#include "system/thread/Lockable.h"
 
 namespace sys {
   namespace thread {

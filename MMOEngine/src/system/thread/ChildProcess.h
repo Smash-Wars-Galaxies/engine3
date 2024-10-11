@@ -6,7 +6,7 @@
 #ifndef CHILDPROCESS_H_
 #define CHILDPROCESS_H_
 
-#include "Process.h"
+#include "system/thread/Process.h"
 
 namespace sys {
   namespace thread {

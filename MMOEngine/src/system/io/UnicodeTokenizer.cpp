@@ -6,7 +6,7 @@
 #include "system/lang/Integer.h"
 #include "system/lang/Long.h"
 
-#include "UnicodeTokenizer.h"
+#include "system/io/UnicodeTokenizer.h"
 
 UnicodeTokenizer::UnicodeTokenizer(const String& s) {
 	str = s;

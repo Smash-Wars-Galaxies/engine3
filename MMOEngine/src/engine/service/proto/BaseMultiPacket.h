@@ -6,7 +6,7 @@
 #ifndef BASEMULTIPACKET_H_
 #define BASEMULTIPACKET_H_
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 namespace engine {
   namespace service {

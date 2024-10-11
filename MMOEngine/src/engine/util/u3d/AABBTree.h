@@ -17,12 +17,12 @@
 
 #include "Vector3.h"
 
-#include "AABB.h"
+#include "engine/util/u3d/AABB.h"
 
-#include "Triangle.h"
-#include "Sphere.h"
-#include "Ray.h"
-#include "AABBNode.h"
+#include "engine/util/u3d/Triangle.h"
+#include "engine/util/u3d/Sphere.h"
+#include "engine/util/u3d/Ray.h"
+#include "engine/util/u3d/AABBNode.h"
 
 namespace engine {
   namespace util {

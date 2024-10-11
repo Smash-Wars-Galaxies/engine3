@@ -5,19 +5,19 @@
 
 #include <limits>
 
-#include "String.h"
+#include "system/lang/String.h"
 
-#include "types.h"
+#include "system/lang/types.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"
 
-#include "Bool.h"
-#include "Byte.h"
-#include "Short.h"
-#include "Long.h"
-#include "Float.h"
-#include "Double.h"
+#include "system/lang/Bool.h"
+#include "system/lang/Byte.h"
+#include "system/lang/Short.h"
+#include "system/lang/Long.h"
+#include "system/lang/Float.h"
+#include "system/lang/Double.h"
 
 template<> unsigned int TypeInfoAtomicBase<const char*>::hashCode(const char* const& val) {
 	return Long::hashCode(reinterpret_cast<uint64>(val));

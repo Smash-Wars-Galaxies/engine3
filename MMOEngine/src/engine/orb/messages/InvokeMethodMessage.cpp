@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 14/10/16.
 //
 
-#include "InvokeMethodMessage.h"
+#include "engine/orb/messages/InvokeMethodMessage.h"
 
 #include "engine/orb/DistributedObjectBroker.h"
 

@@ -12,7 +12,7 @@
 #pragma once
 
 #include "Vector3.h"
-#include "Triangle.h"
+#include "engine/util/u3d/Triangle.h"
 
 namespace engine {
  namespace util {

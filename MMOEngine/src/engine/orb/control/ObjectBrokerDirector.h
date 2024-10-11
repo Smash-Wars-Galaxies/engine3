@@ -10,7 +10,7 @@
 
 #include "engine/orb/ObjectBroker.h"
 
-#include "ObjectBrokerTable.h"
+#include "engine/orb/control/ObjectBrokerTable.h"
 
 namespace engine {
   namespace ORB {

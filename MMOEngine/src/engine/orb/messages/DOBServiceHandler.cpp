@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 17/10/16.
 //
 
-#include "DOBServiceHandler.h"
+#include "engine/orb/messages/DOBServiceHandler.h"
 
 DOBServiceHandler::DOBServiceHandler() {
 }

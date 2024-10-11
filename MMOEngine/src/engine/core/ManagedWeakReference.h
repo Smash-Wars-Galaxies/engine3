@@ -11,10 +11,10 @@
 #include "system/lang.h"
 
 #include "engine/orb/object/DistributedObject.h"
-#include "ManagedReference.h"
-#include "Core.h"
+#include "engine/core/Core.h"
 
-#include "ManagedObject.h"
+#include "engine/core/ManagedObject.h"
+#include "engine/core/ManagedReference.h"
 #include "engine/orb/db/DOBObjectManager.h"
 
 namespace engine {

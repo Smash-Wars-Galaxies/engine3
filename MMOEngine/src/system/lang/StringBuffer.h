@@ -9,8 +9,8 @@
 
 #include "system/platform.h"
 
-#include "String.h"
-#include "UnicodeString.h"
+#include "system/lang/String.h"
+#include "system/lang/UnicodeString.h"
 
 #include "system/util/ArrayList.h"
 

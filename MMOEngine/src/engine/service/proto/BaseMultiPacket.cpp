@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "BaseMultiPacket.h"
+#include "engine/service/proto/BaseMultiPacket.h"
 
 BaseMultiPacket::BaseMultiPacket(BasePacket* pack) : BasePacket() {
 	singlePacket = pack;

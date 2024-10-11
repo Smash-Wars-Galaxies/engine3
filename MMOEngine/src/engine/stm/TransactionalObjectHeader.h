@@ -8,11 +8,11 @@
 
 #include "system/lang.h"
 
-#include "TransactionalMemoryManager.h"
+#include "engine/stm/TransactionalMemoryManager.h"
 
-#include "TransactionAbortedException.h"
+#include "engine/stm/TransactionAbortedException.h"
 
-#include "Transaction.h"
+#include "engine/stm/Transaction.h"
 
 //#define STMLINKELISTDHELP
 //#define EAGERABORTS

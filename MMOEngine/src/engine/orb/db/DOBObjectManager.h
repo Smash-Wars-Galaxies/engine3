@@ -22,7 +22,7 @@
 #include "engine/util/ObjectFactory.h"
 #include "system/util/SynchronizedSortedVector.h"
 
-#include "DistributedObjectDirectory.h"
+#include "engine/orb/db/DistributedObjectDirectory.h"
 
 namespace engine {
 	namespace ORB {

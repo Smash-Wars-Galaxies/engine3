@@ -6,7 +6,7 @@
 #include "engine/core/Core.h"
 #include "engine/orb/messages/DOBServiceClient.h"
 
-#include "DistributedObject.h"
+#include "engine/orb/object/DistributedObject.h"
 
 #include "engine/orb/db/DOBObjectManager.h"
 

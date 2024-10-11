@@ -8,9 +8,9 @@
 
 #ifndef __CYGWIN__
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
-#include "System.h"
+#include "system/lang/System.h"
 
 #include <signal.h>
 

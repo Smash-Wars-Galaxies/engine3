@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "SocketException.h"
+#include "system/net/SocketException.h"
 
-#include "SocketAddress.h"
+#include "system/net/SocketAddress.h"
 
 #include "engine/log/Logger.h"
 

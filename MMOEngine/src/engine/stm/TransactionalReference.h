@@ -6,8 +6,8 @@
 #ifndef ENGINE_STM_TRANSACTIONALWEAKREFERENCE_H_
 #define ENGINE_STM_TRANSACTIONALWEAKREFERENCE_H_
 
-#include "Transaction.h"
-#include "TransactionalWeakReference.h"
+#include "engine/stm/Transaction.h"
+#include "engine/stm/TransactionalWeakReference.h"
 
 namespace engine {
 namespace stm {

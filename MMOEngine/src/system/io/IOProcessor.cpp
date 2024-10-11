@@ -9,10 +9,10 @@
 #include <sys/epoll.h>
 #endif
 
-#include "IOHandler.h"
-#include "IOException.h"
+#include "system/io/IOHandler.h"
+#include "system/io/IOException.h"
 
-#include "IOProcessor.h"
+#include "system/io/IOProcessor.h"
 
 #if defined (__clang__) && (__clang_major__ >= 18)
 	#pragma clang diagnostic push

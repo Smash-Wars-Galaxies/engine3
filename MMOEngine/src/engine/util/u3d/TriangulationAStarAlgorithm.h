@@ -12,8 +12,8 @@
 #ifndef TRIANGULATIONASTARALGORITHM_H_
 #define TRIANGULATIONASTARALGORITHM_H_
 
-#include "AStarAlgorithm.h"
-#include "TriangleNode.h"
+#include "engine/util/u3d/AStarAlgorithm.h"
+#include "engine/util/u3d/TriangleNode.h"
 #include "engine/log/Logger.h"
 
 namespace engine {

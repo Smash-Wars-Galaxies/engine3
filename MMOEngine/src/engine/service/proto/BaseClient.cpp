@@ -8,7 +8,7 @@
 #include "engine/log/Logger.h"
 #include "engine/core/Core.h"
 
-#include "BaseClient.h"
+#include "engine/service/proto/BaseClient.h"
 
 #include "events/BaseClientNetStatusCheckupEvent.h"
 #include "events/BaseClientCleanupEvent.h"

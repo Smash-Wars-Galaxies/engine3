@@ -6,7 +6,7 @@
 #ifndef DATAGRAMSERVICETHREAD_H_
 #define DATAGRAMSERVICETHREAD_H_
 
-#include "ServiceMessageHandlerThread.h"
+#include "engine/service/ServiceMessageHandlerThread.h"
 
 namespace engine {
   namespace service {

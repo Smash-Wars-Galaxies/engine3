@@ -9,7 +9,7 @@
 
 #include "system/util/ArrayList.h"
 
-#include "StreamIndexOutOfBoundsException.h"
+#include "system/io/StreamIndexOutOfBoundsException.h"
 
 namespace sys {
   namespace io {

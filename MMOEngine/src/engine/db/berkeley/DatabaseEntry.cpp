@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "DatabaseEntry.h"
+#include "engine/db/berkeley/DatabaseEntry.h"
 
 using namespace engine::db::berkeley;
 

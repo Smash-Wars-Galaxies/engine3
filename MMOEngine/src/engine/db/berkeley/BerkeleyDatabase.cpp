@@ -11,7 +11,7 @@
 
 #include "engine/db/DatabaseException.h"
 
-#include "BerkeleyDatabase.h"
+#include "engine/db/berkeley/BerkeleyDatabase.h"
 
 #include "engine/db/ObjectDatabaseManager.h"
 

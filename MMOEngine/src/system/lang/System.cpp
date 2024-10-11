@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "System.h"
+#include "system/lang/System.h"
 
 ThreadLocal<MTRand*> System::mtrand;
 

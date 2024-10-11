@@ -5,7 +5,7 @@
 #ifndef LUNAR_H
 #define LUNAR_H
 
-#include "lua.hpp"
+#include <lua.hpp>
 
 namespace engine {
 namespace lua {

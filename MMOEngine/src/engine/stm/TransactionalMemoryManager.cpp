@@ -10,7 +10,7 @@
 
 #include "engine/core/Core.h"
 
-#include "TransactionalMemoryManager.h"
+#include "engine/stm/TransactionalMemoryManager.h"
 
 using namespace engine::stm;
 

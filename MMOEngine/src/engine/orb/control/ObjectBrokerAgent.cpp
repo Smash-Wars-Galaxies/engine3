@@ -9,9 +9,9 @@
 
 #include "engine/orb/db/DOBObjectManager.h"
 
-#include "StateUpdateMessage.h"
+#include "engine/orb/control/StateUpdateMessage.h"
 
-#include "ObjectBrokerAgent.h"
+#include "engine/orb/control/ObjectBrokerAgent.h"
 
 ObjectBrokerAgent::ObjectBrokerAgent() : Logger("ObjectBrokerAgent") {
 	setInfoLogLevel();

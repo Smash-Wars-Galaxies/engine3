@@ -11,7 +11,7 @@
 
 #include "engine/util/u3d/BasicOcTreeNode.h"
 
-#include "OcTreeEntryInterface.h"
+#include "engine/util/u3d/OcTreeEntryInterface.h"
 
 namespace engine {
 namespace util {

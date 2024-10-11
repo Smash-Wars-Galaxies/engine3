@@ -7,7 +7,7 @@
 #ifndef E3VARIANT_H
 #define E3VARIANT_H
 
-#include "variant.hpp"
+#include "system/lang/variant.hpp"
 
 namespace sys {
 	namespace lang {

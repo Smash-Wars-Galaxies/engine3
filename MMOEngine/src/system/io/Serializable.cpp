@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Serializable.h"
+#include "system/io/Serializable.h"
 
 #include "system/lang.h"
 

@@ -6,7 +6,7 @@
 #ifndef OUTOFMEMORYERROR_H_
 #define OUTOFMEMORYERROR_H_
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
 namespace sys {
   namespace lang {

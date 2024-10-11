@@ -2,8 +2,8 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "ManagedObject.h"
-#include "ObjectUpdateToDatabaseTask.h"
+#include "engine/core/ManagedObject.h"
+#include "engine/core/ObjectUpdateToDatabaseTask.h"
 #include "engine/core/TaskWorkerThread.h"
 
 void ManagedObject::updateForWrite() {

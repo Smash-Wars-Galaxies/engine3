@@ -6,9 +6,9 @@
 
 #include "system/platform.h"
 
-#include "BaseTypeVariable.h"
+#include "system/lang/BaseTypeVariable.h"
 
-#include "String.h"
+#include "system/lang/String.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"

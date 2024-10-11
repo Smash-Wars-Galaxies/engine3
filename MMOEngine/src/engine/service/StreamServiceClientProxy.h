@@ -6,7 +6,7 @@
 #ifndef STREAMSERVICECLIENTPROXY_H_
 #define STREAMSERVICECLIENTPROXY_H_
 
-#include "StreamServiceClient.h"
+#include "engine/service/StreamServiceClient.h"
 
 namespace engine {
   namespace service {

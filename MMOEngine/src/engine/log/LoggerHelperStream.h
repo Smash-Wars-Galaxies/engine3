@@ -8,7 +8,7 @@
 
 #define LOGGERHELPERSTREAM_H
 
-#include "Logger.h"
+#include "engine/log/Logger.h"
 
 namespace engine {
 	namespace log {

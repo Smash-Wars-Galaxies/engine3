@@ -7,21 +7,21 @@
 
 #include "engine/orb/db/DOBObjectManager.h"
 
-#include "DeployObjectMessage.h"
-#include "InvokeMethodMessage.h"
-#include "LookUpObjectMessage.h"
-#include "LookUpObjectByIDMessage.h"
-#include "LoadPersistentObjectMessage.h"
-#include "UpdatePersistentObjectMessage.h"
-#include "GetNextFreeObjectIDMessage.h"
-#include "UndeployObjectMessage.h"
-#include "RequestServantMessage.h"
-#include "SendObjectDataMessage.h"
+#include "engine/orb/messages/DeployObjectMessage.h"
+#include "engine/orb/messages/InvokeMethodMessage.h"
+#include "engine/orb/messages/LookUpObjectMessage.h"
+#include "engine/orb/messages/LookUpObjectByIDMessage.h"
+#include "engine/orb/messages/LoadPersistentObjectMessage.h"
+#include "engine/orb/messages/UpdatePersistentObjectMessage.h"
+#include "engine/orb/messages/GetNextFreeObjectIDMessage.h"
+#include "engine/orb/messages/UndeployObjectMessage.h"
+#include "engine/orb/messages/RequestServantMessage.h"
+#include "engine/orb/messages/SendObjectDataMessage.h"
 
 #include "engine/orb/control/ControlMessage.h"
 #include "engine/orb/control/StateUpdateMessage.h"
 
-#include "DOBMessageFactory.h"
+#include "engine/orb/messages/DOBMessageFactory.h"
 
 DOBMessageFactory::DOBMessageFactory() {
 }

@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "IffStreamException.h"
+#include "engine/util/iffstream/exceptions/IffStreamException.h"
 
 class InvalidFileTypeException : public IffStreamException {
 public:

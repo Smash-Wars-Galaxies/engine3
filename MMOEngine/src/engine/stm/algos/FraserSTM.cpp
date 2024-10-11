@@ -11,7 +11,7 @@
 
 #include "engine/stm/Transaction.h"
 #include "engine/stm/TransactionalMemoryManager.h"
-#include "FraserSTM.h"
+#include "engine/stm/algos/FraserSTM.h"
 
 using namespace engine::stm;
 

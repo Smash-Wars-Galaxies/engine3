@@ -6,7 +6,7 @@
 #ifndef STREAMSERVICETHREAD_H_
 #define STREAMSERVICETHREAD_H_
 
-#include "ServiceMessageHandlerThread.h"
+#include "engine/service/ServiceMessageHandlerThread.h"
 
 namespace engine {
   namespace service {

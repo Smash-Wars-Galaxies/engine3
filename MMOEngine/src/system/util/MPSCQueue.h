@@ -9,7 +9,7 @@
 #ifndef ENGINE3_MPSCQUEUE_H
 #define ENGINE3_MPSCQUEUE_H
 
-#include "MPSCNode.h"
+#include "system/util/MPSCNode.h"
 
 
 /**

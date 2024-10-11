@@ -9,7 +9,7 @@
 #include "system/lang.h"
 #include "engine/log/Logger.h"
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 namespace engine {
   namespace service {

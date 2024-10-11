@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "ProcessHeap.h"
+#include "system/mm/ProcessHeap.h"
 
 ProcessHeap::ProcessHeap() {
 	heapBase = mmapManager->createHeapBase(0);

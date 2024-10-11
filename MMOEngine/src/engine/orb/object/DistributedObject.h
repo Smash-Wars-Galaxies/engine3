@@ -9,7 +9,7 @@
 #include "system/lang.h"
 #include <atomic>
 
-#include "DistributedObjectPOD.h"
+#include "engine/orb/object/DistributedObjectPOD.h"
 
 namespace engine {
   namespace ORB {

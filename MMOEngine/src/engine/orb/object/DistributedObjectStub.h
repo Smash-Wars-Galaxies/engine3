@@ -8,8 +8,8 @@
 
 #include "engine/util/Singleton.h"
 
-#include "DistributedObject.h"
-#include "DistributedObjectServant.h"
+#include "engine/orb/object/DistributedObject.h"
+#include "engine/orb/object/DistributedObjectServant.h"
 
 namespace engine {
   namespace ORB {

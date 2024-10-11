@@ -3,8 +3,8 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "TaskQueue.h"
-#include "Task.h"
+#include "engine/core/TaskQueue.h"
+#include "engine/core/Task.h"
 
 TaskQueue::TaskQueue(const char* name) : Condition(), Logger("TaskQueue") {
 	blocked = false;

@@ -6,7 +6,7 @@
 #ifndef STANDALONEBASEMESSAGE_H_
 #define STANDALONEBASEMESSAGE_H_
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 namespace engine {
   namespace service {

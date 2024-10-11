@@ -9,11 +9,11 @@
 
 #include <lua.hpp>
 
-#include "LuaObject.h"
-#include "LuaFunction.h"
-#include "Luna.h"
+#include "engine/lua/LuaObject.h"
+#include "engine/lua/LuaFunction.h"
+#include "engine/lua/Luna.h"
 
-#include "LuaCallbackException.h"
+#include "engine/lua/LuaCallbackException.h"
 
 #include "engine/log/Logger.h"
 

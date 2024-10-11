@@ -12,7 +12,7 @@
 
 #include "system/platform.h"
 
-#include "Funnel.h"
+#include "engine/util/u3d/Funnel.h"
 
 Vector<Vector3>* Funnel::funnel(const Vector3& startPoint, const Vector3& goalPoint, const Vector<const Triangle*>* triangleChannel) {
 	Vector<Vector3>* path = new Vector<Vector3>();

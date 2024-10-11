@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Packet.h"
+#include "system/net/Packet.h"
 
 Packet::Packet() : Stream(RAW_MAX_SIZE, RAW_MAX_SIZE), ObjectInputStream(), ObjectOutputStream() {
 }

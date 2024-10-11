@@ -11,8 +11,8 @@
 
 #include "engine/db/DatabaseException.h"
 
-#include "Cursor.h"
-#include "DatabaseEntry.h"
+#include "engine/db/berkeley/Cursor.h"
+#include "engine/db/berkeley/DatabaseEntry.h"
 #include "engine/db/berkeley/Environment.h"
 
 using namespace engine::db::berkeley;

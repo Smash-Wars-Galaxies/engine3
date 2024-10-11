@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Mutex.h"
+#include "system/thread/Mutex.h"
 
-#include "ReadWriteLock.h"
+#include "system/thread/ReadWriteLock.h"
 
 #include "engine/core/TaskWorkerThread.h"
 

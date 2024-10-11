@@ -6,7 +6,7 @@
 #ifndef MEMORYMAPPEDFILE_H_
 #define MEMORYMAPPEDFILE_H_
 
-#include "Heap.h"
+#include "system/mm/Heap.h"
 
 namespace sys {
   namespace mm {

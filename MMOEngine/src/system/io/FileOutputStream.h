@@ -5,11 +5,11 @@
 #ifndef FILEOUTPUTSTREAM_H_
 #define FILEOUTPUTSTREAM_H_
 
-#include "File.h"
+#include "system/io/File.h"
 
-#include "OutputStream.h"
+#include "system/io/OutputStream.h"
 
-#include "FileNotFoundException.h"
+#include "system/io/FileNotFoundException.h"
 
 namespace sys {
   namespace io {

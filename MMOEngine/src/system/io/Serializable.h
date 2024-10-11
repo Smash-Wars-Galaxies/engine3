@@ -13,7 +13,7 @@
 
 #include "system/util/VectorMap.h"
 
-#include "ObjectInputStream.h"
+#include "system/io/ObjectInputStream.h"
 
 namespace sys {
 	namespace io {

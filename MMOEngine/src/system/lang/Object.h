@@ -17,7 +17,7 @@
 #include "system/thread/atomic/AtomicBoolean.h"
 #include "system/thread/atomic/AtomicReference.h"
 
-#include "Variable.h"
+#include "system/lang/Variable.h"
 
 #ifdef MEMORY_PROTECTION
 #define REFERENCED_WEAK_MUTEX

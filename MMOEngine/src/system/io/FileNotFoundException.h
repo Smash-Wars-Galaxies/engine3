@@ -5,9 +5,9 @@
 #ifndef FILENOTFOUNDEXCEPTION_H_
 #define FILENOTFOUNDEXCEPTION_H_
 
-#include "IOException.h"
+#include "system/io/IOException.h"
 
-#include "File.h"
+#include "system/io/File.h"
 
 namespace sys {
   namespace io {

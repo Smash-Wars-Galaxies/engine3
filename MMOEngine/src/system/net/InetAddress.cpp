@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "InetAddress.h"
+#include "system/net/InetAddress.h"
 
 InetAddress::InetAddress(const String& address) {
 	ipaddress = address;

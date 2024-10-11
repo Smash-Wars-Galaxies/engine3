@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "TransactionalSocketManager.h"
+#include "engine/stm/service/TransactionalSocketManager.h"
 
 TransactionalSocketManager::TransactionalSocketManager() : Logger("TransactionalSocketManager") {
 	setLogging(false);

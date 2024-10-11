@@ -7,7 +7,7 @@
 #include "system/platform.h"
 #include "system/lang/String.h"
 
-#include "FileDescriptor.h"
+#include "system/io/FileDescriptor.h"
 
 #ifdef PLATFORM_WIN
 #include <namedpipeapi.h>

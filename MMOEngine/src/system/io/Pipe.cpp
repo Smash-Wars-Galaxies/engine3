@@ -2,9 +2,9 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "IOException.h"
+#include "system/io/IOException.h"
 
-#include "Pipe.h"
+#include "system/io/Pipe.h"
 
 namespace PipeNs {
 #ifdef PLATFORM_WIN

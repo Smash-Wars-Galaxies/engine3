@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "MemoryManager.h"
+#include "system/mm/MemoryManager.h"
 
 #include "system/mm/Heap.h"
 #include "system/mm/ProtectedHeap.h"

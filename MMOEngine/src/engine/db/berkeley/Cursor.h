@@ -12,8 +12,8 @@
 #pragma once
 
 #include <db.h>
-#include "CursorConfig.h"
-#include "DatabaseConfig.h"
+#include "engine/db/berkeley/CursorConfig.h"
+#include "engine/db/berkeley/DatabaseConfig.h"
 
 namespace engine {
   namespace db {

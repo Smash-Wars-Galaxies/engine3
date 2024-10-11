@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "MersenneTwister.h"
+#include "system/lang/mersenne/MersenneTwister.h"
 
 void MTRand::seed() {
 	// Seed the generator with an array from /dev/urandom if available

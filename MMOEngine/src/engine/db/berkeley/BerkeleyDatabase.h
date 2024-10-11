@@ -16,10 +16,10 @@
 
 #include "engine/db/Database.h"
 
-#include "DatabaseConfig.h"
-#include "BTransaction.h"
-#include "DatabaseEntry.h"
-#include "Cursor.h"
+#include "engine/db/berkeley/DatabaseConfig.h"
+#include "engine/db/berkeley/BTransaction.h"
+#include "engine/db/berkeley/DatabaseEntry.h"
+#include "engine/db/berkeley/Cursor.h"
 
 namespace engine {
   namespace db {

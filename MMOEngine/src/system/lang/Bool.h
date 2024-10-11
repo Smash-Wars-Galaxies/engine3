@@ -4,7 +4,7 @@
 */
 
 #pragma once
-#include "BaseTypeVariable.h"
+#include "system/lang/BaseTypeVariable.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"

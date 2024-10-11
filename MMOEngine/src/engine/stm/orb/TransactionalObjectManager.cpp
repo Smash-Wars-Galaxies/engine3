@@ -6,7 +6,7 @@
 #include "engine/db/ObjectDatabaseManager.h"
 #include "engine/db/mysql/MysqlDatabaseManager.h"
 
-#include "TransactionalObjectManager.h"
+#include "engine/stm/orb/TransactionalObjectManager.h"
 
 #include "engine/core/ManagedObject.h"
 

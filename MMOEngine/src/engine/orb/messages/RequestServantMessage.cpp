@@ -6,10 +6,10 @@
 // Created by Victor Popovici on 15/10/16.
 //
 
-#include "RequestServantMessage.h"
+#include "engine/orb/messages/RequestServantMessage.h"
 
 #include "engine/core/ManagedObject.h"
-#include "RemoteObjectBroker.h"
+#include "engine/orb/messages/RemoteObjectBroker.h"
 
 RequestServantMessage::RequestServantMessage(uint64 oid) : DOBMessage(REQUESTSERVANT, 40), objectID(oid) {
 	insertLong(oid);

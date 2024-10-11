@@ -8,9 +8,9 @@
 
 #include "system/platform.h"
 
-#include "String.h"
+#include "system/lang/String.h"
 
-#include "StackTrace.h"
+#include "system/lang/StackTrace.h"
 
 namespace sys {
   namespace lang {

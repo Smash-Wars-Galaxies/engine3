@@ -6,7 +6,7 @@
 #ifndef UDPSERVERSOCKET_H_
 #define UDPSERVERSOCKET_H_
 
-#include "Socket.h"
+#include "system/net/Socket.h"
 
 namespace sys {
   namespace net {

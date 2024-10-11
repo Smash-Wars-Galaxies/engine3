@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "AllocationTracker.h"
+#include "system/mm/AllocationTracker.h"
 
-#include "PTAllocator.h"
+#include "system/mm/PTAllocator.h"
 
 #ifdef WITH_STM
 #define USE_STARTER 0

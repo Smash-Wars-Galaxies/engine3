@@ -6,7 +6,7 @@
 #ifndef BASEFRAGMENTEDPACKET_H_
 #define BASEFRAGMENTEDPACKET_H_
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 namespace engine {
   namespace service {

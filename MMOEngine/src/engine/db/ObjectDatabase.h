@@ -11,7 +11,7 @@
 
 #include "berkeley/BerkeleyDatabase.h"
 
-#include "LocalDatabase.h"
+#include "engine/db/LocalDatabase.h"
 
 namespace engine {
   namespace db {

@@ -10,7 +10,7 @@
 
 #include "engine/orb/messages/DOBMessage.h"
 
-#include "ObjectBrokerAgent.h"
+#include "engine/orb/control/ObjectBrokerAgent.h"
 
 namespace engine {
   namespace ORB {

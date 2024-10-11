@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 17/10/16.
 //
 
-#include "DOBMessage.h"
+#include "engine/orb/messages/DOBMessage.h"
 
 DOBMessage::DOBMessage(uint32 messageType) : Packet(20), client(nullptr), sequence(0), async(false) {
 	insertInt(0); //size

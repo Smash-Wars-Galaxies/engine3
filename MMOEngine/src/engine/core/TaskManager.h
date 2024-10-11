@@ -11,10 +11,10 @@
 #include "system/lang/Pair.h"
 #include "system/lang/Function.h"
 
-#include "Task.h"
+#include "engine/core/Task.h"
 
 #ifdef CXX11_COMPILER
-#include "LambdaFunction.h"
+#include "engine/core/LambdaFunction.h"
 #endif
 
 namespace engine {

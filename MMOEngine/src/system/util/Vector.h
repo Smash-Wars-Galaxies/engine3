@@ -11,7 +11,7 @@
 
 #include "system/lang/Object.h"
 
-#include "ArrayList.h"
+#include "system/util/ArrayList.h"
 
 namespace sys {
  namespace util {

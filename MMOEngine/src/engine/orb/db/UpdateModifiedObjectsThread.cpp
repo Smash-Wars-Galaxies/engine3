@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "UpdateModifiedObjectsThread.h"
+#include "engine/orb/db/UpdateModifiedObjectsThread.h"
 
 UpdateModifiedObjectsThread::UpdateModifiedObjectsThread(int id, DOBObjectManager* manager, int cpu) {
 	objectManager = manager;

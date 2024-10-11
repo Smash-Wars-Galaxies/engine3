@@ -18,7 +18,7 @@
 
 #include "atomic/AtomicInteger.h"
 
-#include "ThreadLocal.h"
+#include "system/thread/ThreadLocal.h"
 
 #include "engine/util/bytell_hash_map.hpp"
 

@@ -11,8 +11,8 @@
 
 //based on http://skatgame.net/mburo/ps/thesis_demyen_2006.pdf
 
-#include "TriangulationAStarAlgorithm.h"
-#include "Segment.h"
+#include "engine/util/u3d/TriangulationAStarAlgorithm.h"
+#include "engine/util/u3d/Segment.h"
 
 Vector<const Triangle*>* TriangulationAStarAlgorithm::search(const Vector3& startPoint, const Vector3& goalPoint, const TriangleNode* source, const TriangleNode* target) {
 	VectorMap<uint32, AStarNode<TriangleNode, uint32>* > visited(100, 10);

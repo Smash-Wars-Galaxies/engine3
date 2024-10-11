@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 15/10/16.
 //
 
-#include "DeployObjectMessage.h"
+#include "engine/orb/messages/DeployObjectMessage.h"
 
 DeployObjectMessage::DeployObjectMessage(const String& name, const String& classname,
 					 uint64 requestedObjectID) : DOBMessage(DEPLOYOBJECTMESSAGE, 40),

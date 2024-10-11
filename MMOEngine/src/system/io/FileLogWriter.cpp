@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "FileLogWriter.h"
+#include "system/io/FileLogWriter.h"
 
 #include <cerrno>
 #include <string.h>

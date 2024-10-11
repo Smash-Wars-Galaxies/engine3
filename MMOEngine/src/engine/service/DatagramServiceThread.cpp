@@ -9,7 +9,7 @@
 #include "engine/core/Core.h"
 #include "engine/core/Task.h"
 
-#include "DatagramServiceThread.h"
+#include "engine/service/DatagramServiceThread.h"
 
 DatagramServiceThread::DatagramServiceThread() : ServiceMessageHandlerThread("") {
 	setInfoLogLevel();

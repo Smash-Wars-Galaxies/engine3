@@ -14,7 +14,7 @@
 
 #include "engine/orb/DistributedObjectBroker.h"
 
-#include "DOBMessage.h"
+#include "engine/orb/messages/DOBMessage.h"
 
 namespace engine {
 	namespace ORB {

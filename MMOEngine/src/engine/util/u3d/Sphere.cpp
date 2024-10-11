@@ -9,8 +9,8 @@
  *      Author: victor
  */
 
-#include "Sphere.h"
-#include "AABBTree.h"
+#include "engine/util/u3d/Sphere.h"
+#include "engine/util/u3d/AABBTree.h"
 
 bool Sphere::intersects(const AABB& aabb) const {
 	float distSqrtToOrigin = aabb.distSqrd(origin);

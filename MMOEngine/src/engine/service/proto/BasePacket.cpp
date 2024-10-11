@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "BasePacket.h"
+#include "engine/service/proto/BasePacket.h"
 
 BasePacket::BasePacket() : Message() {
 	doSeq = true;

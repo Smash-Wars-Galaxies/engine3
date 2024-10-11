@@ -6,7 +6,7 @@
 #ifndef DISTRIBUTEDOBJECTADAPTER_H_
 #define DISTRIBUTEDOBJECTADAPTER_H_
 
-#include "DistributedObjectStub.h"
+#include "engine/orb/object/DistributedObjectStub.h"
 
 #include "engine/orb/messages/DOBMessage.h"
 

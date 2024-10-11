@@ -5,7 +5,7 @@
 #ifndef ILLEGALARGUMENTEXCEPTION_H_
 #define ILLEGALARGUMENTEXCEPTION_H_
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
 namespace sys {
   namespace lang {

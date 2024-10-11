@@ -8,7 +8,7 @@
 
 #include "engine/service/ServiceThread.h"
 
-#include "RunStatistics.h"
+#include "engine/core/RunStatistics.h"
 
 namespace engine {
   namespace core {

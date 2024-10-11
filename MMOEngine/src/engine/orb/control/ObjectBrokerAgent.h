@@ -9,8 +9,7 @@
 #include "engine/util/Singleton.h"
 
 #include "engine/orb/ObjectBroker.h"
-
-#include "ObjectBrokerDirector.h"
+#include "engine/orb/control/ObjectBrokerDirector.h"
 
 namespace engine {
   namespace ORB {

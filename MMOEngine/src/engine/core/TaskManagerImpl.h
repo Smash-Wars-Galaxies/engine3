@@ -10,8 +10,8 @@
 
 #include "engine/log/Logger.h"
 
-#include "TaskManager.h"
-#include "TaskQueue.h"
+#include "engine/core/TaskManager.h"
+#include "engine/core/TaskQueue.h"
 #include "engine/core/TaskWorkerThread.h"
 
 namespace engine {

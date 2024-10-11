@@ -12,9 +12,9 @@
 
 #include "engine/service/StreamServiceThread.h"
 
-#include "ObjectBroker.h"
+#include "engine/orb/ObjectBroker.h"
 
-#include "NamingDirectoryService.h"
+#include "engine/orb/NamingDirectoryService.h"
 
 #include "messages/DOBServiceClient.h"
 

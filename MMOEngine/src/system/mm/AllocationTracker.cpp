@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "MemoryManager.h"
+#include "system/mm/MemoryManager.h"
 
-#include "AllocationTracker.h"
+#include "system/mm/AllocationTracker.h"
 
 AllocationTracker* AllocationTracker::instance = nullptr;
 

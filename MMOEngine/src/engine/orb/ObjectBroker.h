@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "NameAlreadyBoundException.h"
+#include "engine/orb/NameAlreadyBoundException.h"
 
 #include "object/ObjectAlreadyDeployedException.h"
 #include "object/ObjectNotDeployedException.h"

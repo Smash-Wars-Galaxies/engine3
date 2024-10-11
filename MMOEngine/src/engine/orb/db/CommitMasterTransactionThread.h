@@ -15,7 +15,7 @@
 #include "engine/engine.h"
 #include "system/thread/atomic/AtomicBoolean.h"
 
-#include "UpdateModifiedObjectsThread.h"
+#include "engine/orb/db/UpdateModifiedObjectsThread.h"
 
 namespace engine {
 	namespace ORB {

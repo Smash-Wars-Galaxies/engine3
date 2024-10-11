@@ -14,7 +14,7 @@
 #include "engine/service/proto/BasePacket.h"
 #include "engine/service/proto/BaseClient.h"
 
-#include "TransactionalBaseClientManager.h"
+#include "engine/stm/service/TransactionalBaseClientManager.h"
 
 
 TransactionalBaseClientManager::TransactionalBaseClientManager() : Logger("TransactionalBaseClientManager") {

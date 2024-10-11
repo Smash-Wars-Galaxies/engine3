@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "BaseFragmentedPacket.h"
+#include "engine/service/proto/BaseFragmentedPacket.h"
 
 #include "engine/log/Logger.h"
 

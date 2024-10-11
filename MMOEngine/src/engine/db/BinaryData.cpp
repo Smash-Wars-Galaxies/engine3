@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "BinaryData.h"
+#include "engine/db/BinaryData.h"
 
 using namespace engine::db;
 

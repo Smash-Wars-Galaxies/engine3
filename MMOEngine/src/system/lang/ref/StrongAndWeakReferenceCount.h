@@ -17,7 +17,7 @@
 #endif
 
 #include "system/thread/atomic/AtomicReference.h"
-#include "ReferenceCounter.h"
+#include "system/lang/ref/ReferenceCounter.h"
 
 namespace sys {
   namespace lang {

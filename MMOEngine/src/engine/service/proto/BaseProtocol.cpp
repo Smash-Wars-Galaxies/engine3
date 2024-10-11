@@ -5,7 +5,7 @@
 
 #include <zlib.h>
 
-#include "BaseProtocol.h"
+#include "engine/service/proto/BaseProtocol.h"
 
 #include "engine/core/Core.h"
 

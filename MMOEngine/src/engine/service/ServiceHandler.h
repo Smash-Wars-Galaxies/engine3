@@ -6,9 +6,9 @@
 #ifndef SERVICEHANDLER_H_
 #define SERVICEHANDLER_H_
 
-#include "Message.h"
+#include "engine/service/Message.h"
 
-#include "ServiceClient.h"
+#include "engine/service/ServiceClient.h"
 
 namespace engine {
   namespace service {

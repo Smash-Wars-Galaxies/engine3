@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Thread.h"
+#include "system/thread/Thread.h"
 
 #include <thread>
 #include <chrono>

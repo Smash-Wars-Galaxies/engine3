@@ -8,7 +8,7 @@
 
 #include "system/lang/Exception.h"
 
-#include "DistributedObjectStub.h"
+#include "engine/orb/object/DistributedObjectStub.h"
 
 namespace engine {
   namespace ORB {

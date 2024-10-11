@@ -13,7 +13,7 @@
 
 #include "engine/log/Logger.h"
 
-#include "AABBTree.h"
+#include "engine/util/u3d/AABBTree.h"
 
 using namespace sys::lang;
 

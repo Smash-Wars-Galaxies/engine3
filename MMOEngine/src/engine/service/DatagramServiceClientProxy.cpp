@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "DatagramServiceClientProxy.h"
+#include "engine/service/DatagramServiceClientProxy.h"
 
 DatagramServiceClientProxy::DatagramServiceClientProxy(Socket* sock, SocketAddress& addr) 
 		: ServiceClient(sock, addr) {

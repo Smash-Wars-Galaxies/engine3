@@ -2,7 +2,7 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "BufferedReader.h"
+#include "system/io/BufferedReader.h"
 
 BufferedReader::BufferedReader(Reader* reader) {
 	BufferedReader::reader = reader;

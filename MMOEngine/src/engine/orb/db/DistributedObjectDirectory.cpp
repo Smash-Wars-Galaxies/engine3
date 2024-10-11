@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "DistributedObjectDirectory.h"
+#include "engine/orb/db/DistributedObjectDirectory.h"
 
 #include "engine/db/ObjectDatabaseManager.h"
 

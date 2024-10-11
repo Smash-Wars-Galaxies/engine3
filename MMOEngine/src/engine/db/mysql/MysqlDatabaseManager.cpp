@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "MysqlDatabaseManager.h"
+#include "engine/db/mysql/MysqlDatabaseManager.h"
 
 void MysqlDatabaseManager::commitModifiedDatabases() {
 	auto localModifiedDatabases = getLocalModifiedDatabases();

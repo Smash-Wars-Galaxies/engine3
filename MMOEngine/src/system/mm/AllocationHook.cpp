@@ -5,7 +5,7 @@
 
 #include <pthread.h>
 
-#include "AllocationHook.h"
+#include "system/mm/AllocationHook.h"
 
 #ifdef PLATFORM_MAC
 

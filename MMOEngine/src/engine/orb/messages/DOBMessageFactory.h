@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "DOBMessage.h"
+#include "engine/orb/messages/DOBMessage.h"
 
 #include "engine/core/Task.h"
 

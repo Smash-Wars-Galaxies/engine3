@@ -6,14 +6,14 @@
 #ifndef SERVICEMESSAGEHANDLERTHREAD_H_
 #define SERVICEMESSAGEHANDLERTHREAD_H_
 
-#include "ServiceThread.h"
+#include "engine/service/ServiceThread.h"
 
-#include "ServiceClientMap.h"
+#include "engine/service/ServiceClientMap.h"
 
-#include "ServiceHandler.h"
-#include "ServiceFilter.h"
+#include "engine/service/ServiceHandler.h"
+#include "engine/service/ServiceFilter.h"
 
-#include "MessageQueue.h"
+#include "engine/service/MessageQueue.h"
 
 namespace engine {
   namespace service {

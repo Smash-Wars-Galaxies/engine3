@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "BasePacketHandler.h"
+#include "engine/service/proto/BasePacketHandler.h"
 
 #include "engine/core/Core.h"
 #include "packets/SessionIDRequestMessage.h"

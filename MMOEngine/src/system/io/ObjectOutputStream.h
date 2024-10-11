@@ -6,7 +6,7 @@
 #ifndef OBJECTOUTPUTSTREAM_H_
 #define OBJECTOUTPUTSTREAM_H_
 
-#include "Stream.h"
+#include "system/io/Stream.h"
 
 namespace sys {
   namespace io {

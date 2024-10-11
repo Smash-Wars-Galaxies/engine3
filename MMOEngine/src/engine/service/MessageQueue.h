@@ -12,7 +12,7 @@
 
 #include "engine/log/Logger.h"
 
-#include "Message.h"
+#include "engine/service/Message.h"
 
 namespace engine {
   namespace service {

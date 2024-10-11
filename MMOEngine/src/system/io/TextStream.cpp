@@ -7,8 +7,8 @@
 
 #include "system/lang/Character.h"
 
-#include "File.h"
-#include "TextStream.h"
+#include "system/io/File.h"
+#include "system/io/TextStream.h"
 
 namespace TextStreamDetail {
 	int fprintf(FILE* str, const char* format, ...) {

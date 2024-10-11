@@ -20,10 +20,10 @@
 
 #include "system/util/VectorSet.h"
 
-#include "Allocator.h"
-#include "AllocationHook.h"
+#include "system/mm/Allocator.h"
+#include "system/mm/AllocationHook.h"
 
-#include "Heap.h"
+#include "system/mm/Heap.h"
 
 #define MM_ALLOCATOR_LIST_SIZE 4096
 

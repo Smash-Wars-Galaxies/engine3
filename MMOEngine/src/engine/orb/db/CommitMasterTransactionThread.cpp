@@ -11,11 +11,11 @@
 
 #include "engine/orb/DistributedObjectBroker.h"
 
-#include "DOBObjectManager.h"
+#include "engine/orb/db/DOBObjectManager.h"
 
-#include "UpdateModifiedObjectsThread.h"
+#include "engine/orb/db/UpdateModifiedObjectsThread.h"
 
-#include "CommitMasterTransactionThread.h"
+#include "engine/orb/db/CommitMasterTransactionThread.h"
 
 CommitMasterTransactionThread::CommitMasterTransactionThread() : Logger("CommitMasterTransactionThread") {
 	transaction = nullptr;

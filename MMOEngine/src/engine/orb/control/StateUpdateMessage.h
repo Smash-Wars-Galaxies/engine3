@@ -12,7 +12,7 @@
 
 #include "engine/orb/messages/DOBMessage.h"
 
-#include "ObjectBrokerDirector.h"
+#include "engine/orb/control/ObjectBrokerDirector.h"
 
 namespace engine {
   namespace ORB {

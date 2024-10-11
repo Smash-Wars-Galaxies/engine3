@@ -16,7 +16,7 @@
 #include "system/io/IOProcessor.h"
 #include "system/io/IOHandler.h"
 
-#include "ChildProcess.h"
+#include "system/thread/ChildProcess.h"
 
 class ChildHandler : public IOHandler
 {

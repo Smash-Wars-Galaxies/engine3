@@ -12,7 +12,7 @@
 #ifndef FRASERSTM_H_
 #define FRASERSTM_H_
 
-#include "STMAlgorithm.h"
+#include "engine/stm/algos/STMAlgorithm.h"
 
 namespace engine {
  namespace stm {

@@ -5,12 +5,12 @@
 #ifndef FILEWRITER_H_
 #define FILEWRITER_H_
 
-#include "File.h"
+#include "system/io/File.h"
 
-#include "Writer.h"
+#include "system/io/Writer.h"
 
-#include "FileNotFoundException.h"
-#include "IOException.h"
+#include "system/io/FileNotFoundException.h"
+#include "system/io/IOException.h"
 
 namespace sys {
   namespace io {

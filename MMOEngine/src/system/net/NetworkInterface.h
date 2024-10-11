@@ -8,7 +8,7 @@
 
 #include "system/util/Vector.h"
 
-#include "InetAddress.h"
+#include "system/net/InetAddress.h"
 
 namespace sys {
   namespace net {

@@ -8,7 +8,7 @@
 
 #include "system/lang.h"
 
-#include "ServiceClient.h"
+#include "engine/service/ServiceClient.h"
 
 #include "engine/orb/object/DistributedObject.h"
 

@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "platform.h"
+#include "system/platform.h"
 
 #include "lang/types.h"
 

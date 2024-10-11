@@ -6,7 +6,7 @@
 #ifndef PROTECTEDHEAP_H_
 #define PROTECTEDHEAP_H_
 
-#include "Heap.h"
+#include "system/mm/Heap.h"
 
 namespace sys {
   namespace mm {

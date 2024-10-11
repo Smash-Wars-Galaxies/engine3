@@ -14,9 +14,9 @@
 
 #include "engine/log/Logger.h"
 
-#include "Task.h"
+#include "engine/core/Task.h"
 
-#include "TimedTaskQueue.h"
+#include "engine/core/TimedTaskQueue.h"
 
 namespace engine {
   namespace core {

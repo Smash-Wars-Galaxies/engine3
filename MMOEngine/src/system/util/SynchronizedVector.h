@@ -12,7 +12,7 @@
 #ifndef SYNCHRONIZEDVECTOR_H_
 #define SYNCHRONIZEDVECTOR_H_
 
-#include "Vector.h"
+#include "system/util/Vector.h"
 
 #include "system/thread/ReadWriteLock.h"
 #include "system/thread/Locker.h"

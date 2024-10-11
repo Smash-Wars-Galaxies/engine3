@@ -12,7 +12,7 @@
 
 #include "system/platform.h"
 
-#include "SortedVector.h"
+#include "system/util/SortedVector.h"
 
 namespace sys {
   namespace util {

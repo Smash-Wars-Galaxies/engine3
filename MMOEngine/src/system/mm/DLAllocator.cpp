@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "DLAllocator.h"
+#include "system/mm/DLAllocator.h"
 
 #ifndef PLATFORM_WIN
 
@@ -13,7 +13,8 @@
 #define MSPACES 1
 //#define HAVE_MMAP 0
 #undef _GNU_SOURCE
-#include "dlmalloc.h"
+
+#include <dlmalloc.h>
 
 DLAllocator::DLAllocator(void* base, size_t size) {
 	dlMspace = nullptr;

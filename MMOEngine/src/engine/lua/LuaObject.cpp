@@ -4,7 +4,7 @@
 */
 
 #include "Lua.h"
-#include "LuaObject.h"
+#include "engine/lua/LuaObject.h"
 
 LuaObject::LuaObject(Lua* lState, const String& name) : L(lState->getLuaState()), objectName(name) {
 

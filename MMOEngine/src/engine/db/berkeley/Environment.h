@@ -14,10 +14,10 @@
 
 #include "system/lang.h"
 
-#include "EnvironmentConfig.h"
-#include "TransactionConfig.h"
-#include "DatabaseConfig.h"
-#include "CheckpointConfig.h"
+#include "engine/db/berkeley/EnvironmentConfig.h"
+#include "engine/db/berkeley/TransactionConfig.h"
+#include "engine/db/berkeley/DatabaseConfig.h"
+#include "engine/db/berkeley/CheckpointConfig.h"
 
 #include <db.h>
 

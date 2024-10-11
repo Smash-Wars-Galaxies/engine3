@@ -2,7 +2,7 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "Process.h"
+#include "system/thread/Process.h"
 
 #ifndef PLATFORM_WIN
 #include <sys/wait.h>

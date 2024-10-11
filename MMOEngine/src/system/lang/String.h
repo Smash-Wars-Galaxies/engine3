@@ -6,8 +6,8 @@
 #pragma once
 
 #include "system/platform.h"
-#include "Variable.h"
-#include "ConstString.h"
+#include "system/lang/Variable.h"
+#include "system/lang/ConstString.h"
 
 #include <string>
 #include <cstdarg>

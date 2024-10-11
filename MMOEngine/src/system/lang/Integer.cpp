@@ -2,12 +2,12 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "Integer.h"
+#include "system/lang/Integer.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"
 
-#include "NumberFormatException.h"
+#include "system/lang/NumberFormatException.h"
 
 int Integer::valueOf(char ch) {
 	int digit = ch - '0';

@@ -13,13 +13,13 @@
 
 #include "engine/core/TaskManager.h"
 
-#include "BasePacket.h"
-#include "BaseFragmentedPacket.h"
-#include "BaseMultiPacket.h"
+#include "engine/service/proto/BasePacket.h"
+#include "engine/service/proto/BaseFragmentedPacket.h"
+#include "engine/service/proto/BaseMultiPacket.h"
 
-#include "BaseProtocol.h"
+#include "engine/service/proto/BaseProtocol.h"
 
-#include "BaseClientStats.h"
+#include "engine/service/proto/BaseClientStats.h"
 
 namespace engine {
   namespace service {

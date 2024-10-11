@@ -6,7 +6,7 @@
 #ifndef SORTEDVECTOR_H_
 #define SORTEDVECTOR_H_
 
-#include "Vector.h"
+#include "system/util/Vector.h"
 
 namespace sys {
   namespace util {

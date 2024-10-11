@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "Observer.h"
+#include "engine/util/Observer.h"
 
 uint64 ObserverImplementation::getObjectID() {
 	return _this.getReferenceUnsafeStaticCast()->_getObjectID();

@@ -12,8 +12,8 @@
 #ifndef OBJECTSAVETODATABASETASK_H_
 #define OBJECTSAVETODATABASETASK_H_
 
-#include "Task.h"
-#include "ManagedWeakReference.h"
+#include "engine/core/Task.h"
+#include "engine/core/ManagedWeakReference.h"
 
 namespace engine {
   namespace core {

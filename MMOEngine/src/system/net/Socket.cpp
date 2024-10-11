@@ -3,16 +3,16 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Socket.h"
+#include "system/net/Socket.h"
 
 #ifndef PLATFORM_WIN
 #else
 #include <winsock2.h>
 #endif
 
-#include "Packet.h"
+#include "system/net/Packet.h"
 
-#include "SocketException.h"
+#include "system/net/SocketException.h"
 
 #ifdef PLATFORM_WIN
 bool Socket::winsockInitialized = false;

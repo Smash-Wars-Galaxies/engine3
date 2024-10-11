@@ -13,8 +13,8 @@
 
 #include "engine/util/Singleton.h"
 
-#include "ObjectDatabase.h"
-#include "IndexDatabase.h"
+#include "engine/db/ObjectDatabase.h"
+#include "engine/db/IndexDatabase.h"
 
 #include "berkeley/Environment.h"
 

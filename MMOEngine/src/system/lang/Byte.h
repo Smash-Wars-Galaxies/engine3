@@ -5,8 +5,8 @@
 
 #pragma once
 
-#include "Character.h"
-#include "Integer.h"
+#include "system/lang/Character.h"
+#include "system/lang/Integer.h"
 
 #include "system/io/ObjectOutputStream.h"
 #include "system/io/ObjectInputStream.h"

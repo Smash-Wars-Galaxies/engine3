@@ -5,7 +5,7 @@
 
 #include "engine/core/Core.h"
 
-#include "ServiceThread.h"
+#include "engine/service/ServiceThread.h"
 
 ServiceThread::ServiceThread(const String& s) : Thread(s), Mutex(s + "Thread"), Logger(s) {
 	setRunning(false);

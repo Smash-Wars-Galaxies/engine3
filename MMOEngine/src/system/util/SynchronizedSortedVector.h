@@ -12,7 +12,7 @@
 #ifndef SYNCHRONIZEDSORTEDVECTOR_H_
 #define SYNCHRONIZEDSORTEDVECTOR_H_
 
-#include "SynchronizedVector.h"
+#include "system/util/SynchronizedVector.h"
 
 namespace sys {
  namespace util {

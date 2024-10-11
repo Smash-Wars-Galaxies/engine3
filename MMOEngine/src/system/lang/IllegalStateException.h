@@ -5,7 +5,7 @@
 #ifndef ILLEGALSTATEEXCEPTION_H_
 #define ILLEGALSTATEEXCEPTION_H_
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
 namespace sys {
   namespace lang {

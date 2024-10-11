@@ -9,7 +9,7 @@
  *      Author: victor
  */
 
-#include "AllocationReplacement.h"
+#include "system/mm/AllocationReplacement.h"
 
 AllocationReplacement* AllocationReplacement::instance = nullptr;
 

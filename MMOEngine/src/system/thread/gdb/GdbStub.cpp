@@ -5,7 +5,7 @@
 #include "system/lang/StringBuffer.h"
 #include "system/io/StringTokenizer.h"
 
-#include "GdbStub.h"
+#include "system/thread/gdb/GdbStub.h"
 
 
 #ifndef PLATFORM_WIN

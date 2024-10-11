@@ -7,8 +7,8 @@
 
 #include "system/platform.h"
 
-#include "Variable.h"
-#include "String.h"
+#include "system/lang/Variable.h"
+#include "system/lang/String.h"
 
 #include <locale>
 #include <codecvt>

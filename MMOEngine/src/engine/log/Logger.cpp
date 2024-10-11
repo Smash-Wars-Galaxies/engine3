@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "Logger.h"
+#include "engine/log/Logger.h"
 #include <atomic>
 
 Reference<FileLogWriter*> Logger::globalLogFile = nullptr;

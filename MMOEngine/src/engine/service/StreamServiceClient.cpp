@@ -5,9 +5,9 @@
 
 #include "engine/log/Logger.h"
 
-#include "ServiceHandler.h"
+#include "engine/service/ServiceHandler.h"
 
-#include "StreamServiceClient.h"
+#include "engine/service/StreamServiceClient.h"
 
 StreamServiceClient::StreamServiceClient(Socket* sock) : ServiceClient(sock), Thread() {
 	doRun = true;

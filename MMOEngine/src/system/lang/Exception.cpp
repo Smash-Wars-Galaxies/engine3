@@ -2,9 +2,9 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "System.h"
+#include "system/lang/System.h"
 
-#include "SignalException.h"
+#include "system/lang/SignalException.h"
 
 //SignalTranslator<AbortedException> g_objAbortedExceptionTranslator;
 //SignalTranslator<FloatingPointException> _objFloatingPOintExceptionTranslator;

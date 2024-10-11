@@ -6,7 +6,7 @@
 #include "events/BaseClientNetStatusCheckupEvent.h"
 #include "events/BaseClientEvent.h"
 
-#include "BaseClientProxy.h"
+#include "engine/service/proto/BaseClientProxy.h"
 
 BaseClientProxy::BaseClientProxy() : BaseClient() {
 	bufferedPacket = nullptr;

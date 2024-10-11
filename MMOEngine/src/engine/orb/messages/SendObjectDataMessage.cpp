@@ -6,7 +6,7 @@
 // Created by Victor Popovici on 26/10/16.
 //
 
-#include "SendObjectDataMessage.h"
+#include "engine/orb/messages/SendObjectDataMessage.h"
 
 SendObjectDataMessage::SendObjectDataMessage(uint64 oid, Stream* data) : DOBMessage(SENDOBJECTDATA, 40), objectID(oid), objectData(nullptr) {
 	insertLong(objectID);

@@ -11,9 +11,9 @@
 
 #include <zlib.h>
 
-#include "LocalDatabase.h"
-#include "DatabaseManager.h"
-#include "ObjectDatabaseManager.h"
+#include "engine/db/LocalDatabase.h"
+#include "engine/db/DatabaseManager.h"
+#include "engine/db/ObjectDatabaseManager.h"
 #include "engine/core/Core.h"
 
 using namespace engine::db;

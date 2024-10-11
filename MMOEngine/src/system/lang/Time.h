@@ -18,10 +18,10 @@
 #include <ctime>
 #endif
 
-#include "String.h"
-#include "StringBuffer.h"
+#include "system/lang/String.h"
+#include "system/lang/StringBuffer.h"
 
-#include "Long.h"
+#include "system/lang/Long.h"
 
 #include <chrono>
 

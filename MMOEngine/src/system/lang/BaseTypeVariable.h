@@ -6,8 +6,8 @@
 #ifndef BASETYPEVARIABLE_H_
 #define BASETYPEVARIABLE_H_
 
-#include "Variable.h"
-#include "String.h"
+#include "system/lang/Variable.h"
+#include "system/lang/String.h"
 
 namespace sys {
 	namespace lang {

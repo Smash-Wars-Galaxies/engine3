@@ -2,9 +2,9 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "ObjectDatabase.h"
+#include "engine/db/ObjectDatabase.h"
 
-#include "ObjectDatabaseManager.h"
+#include "engine/db/ObjectDatabaseManager.h"
 
 #include "engine/core/Task.h"
 #include "engine/core/TaskWorkerThread.h"

@@ -7,7 +7,7 @@
 
 #include "system/lang/Exception.h"
 
-#include "Transaction.h"
+#include "engine/stm/Transaction.h"
 
 namespace engine {
   namespace stm {

@@ -3,7 +3,7 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "ServiceClient.h"
+#include "engine/service/ServiceClient.h"
 
 ServiceClient::ServiceClient() {
 	socket = nullptr;

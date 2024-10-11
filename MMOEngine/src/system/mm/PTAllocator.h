@@ -6,7 +6,7 @@
 #ifndef PTALLOCATOR_H_
 #define PTALLOCATOR_H_
 
-#include "Allocator.h"
+#include "system/mm/Allocator.h"
 
 namespace sys {
   namespace mm {

@@ -6,9 +6,9 @@
 #ifndef NUMBERFORMATEXCEPTION_H_
 #define NUMBERFORMATEXCEPTION_H_
 
-#include "Exception.h"
+#include "system/lang/Exception.h"
 
-#include "StringBuffer.h"
+#include "system/lang/StringBuffer.h"
 
 namespace sys {
   namespace lang {

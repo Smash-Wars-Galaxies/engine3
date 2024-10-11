@@ -4,7 +4,7 @@
  * @created     : Saturday Aug 03, 2019 08:12:13 UTC
  */
 
-#include "IndexDatabase.h"
+#include "engine/db/IndexDatabase.h"
 
 IndexDatabase::IndexDatabase() {
 	dbType = LocalDatabase::INDEXDATABASE;

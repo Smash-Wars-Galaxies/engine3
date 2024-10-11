@@ -5,7 +5,7 @@
 
 #include "engine/core/Core.h"
 
-#include "TransactionalMemoryManager.h"
+#include "engine/stm/TransactionalMemoryManager.h"
 
 #include "algos/FraserSTM.h"
 

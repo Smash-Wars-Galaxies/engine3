@@ -5,13 +5,13 @@
 
 #include "system/lang/Time.h"
 
-#include "MemoryManager.h"
+#include "system/mm/MemoryManager.h"
 
-#include "DLAllocator.h"
+#include "system/mm/DLAllocator.h"
 
 #ifndef PLATFORM_WIN
 
-#include "Heap.h"
+#include "system/mm/Heap.h"
 
 #include <sys/mman.h>
 

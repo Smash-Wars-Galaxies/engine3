@@ -2,9 +2,9 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "StringBuffer.h"
+#include "system/lang/StringBuffer.h"
 
-#include "Character.h"
+#include "system/lang/Character.h"
 
 #include <regex>
 

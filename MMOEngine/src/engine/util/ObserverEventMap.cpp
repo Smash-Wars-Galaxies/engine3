@@ -9,8 +9,8 @@
  *      Author: victor
  */
 
-#include "ObserverEventMap.h"
-#include "Observer.h"
+#include "engine/util/ObserverEventMap.h"
+#include "engine/util/Observer.h"
 
 void ObserverEventMap::notifyObservers(uint32 eventType, Observable* observable, ManagedObject* arg1, int64 arg2) {
 	ReadLocker locker(&observerMutex);

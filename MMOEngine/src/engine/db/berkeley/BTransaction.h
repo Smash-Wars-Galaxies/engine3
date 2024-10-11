@@ -16,7 +16,7 @@
 
 #include "system/platform.h"
 #include "system/thread/atomic/AtomicReference.h"
-#include "Environment.h"
+#include "engine/db/berkeley/Environment.h"
 
 namespace engine {
   namespace db {

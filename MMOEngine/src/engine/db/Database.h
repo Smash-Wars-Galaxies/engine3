@@ -7,9 +7,9 @@
 
 #include "system/lang.h"
 
-#include "DatabaseException.h"
+#include "engine/db/DatabaseException.h"
 
-#include "ResultSet.h"
+#include "engine/db/ResultSet.h"
 
 namespace engine {
 namespace db {

@@ -11,7 +11,7 @@
 
 #include "Matrix4.h"
 #include "Matrix3.h"
-#include "Quaternion.h"
+#include "engine/util/u3d/Quaternion.h"
 
 const Vector3 Vector3::ZERO;
 

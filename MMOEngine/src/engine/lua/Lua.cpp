@@ -5,9 +5,9 @@
 
 #include "engine/log/Logger.h"
 
-#include "Lua.h"
+#include "engine/lua/Lua.h"
 
-#include "LuaPanicException.h"
+#include "engine/lua/LuaPanicException.h"
 
 namespace LuaNamespace {
 	static Logger logger("Lua", Lua::INFO);

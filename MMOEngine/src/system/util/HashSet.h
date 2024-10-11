@@ -8,7 +8,7 @@
 
 #include "system/lang/Object.h"
 
-#include "HashTable.h"
+#include "system/util/HashTable.h"
 
 namespace sys {
   namespace util {

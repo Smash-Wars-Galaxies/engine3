@@ -2,7 +2,7 @@
 ** Copyright (C) 2007-2019 SWGEmu
 ** See file COPYING for copying conditions.
 */
-#include "Stream.h"
+#include "system/io/Stream.h"
 
 Stream::Stream() : ArrayList<char>() {
 	end = offset = elementData;

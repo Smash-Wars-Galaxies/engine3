@@ -12,7 +12,7 @@
 #ifndef TRANSACTIONALWEAKREFERENCE_H_
 #define TRANSACTIONALWEAKREFERENCE_H_
 
-#include "Transaction.h"
+#include "engine/stm/Transaction.h"
 
 namespace engine {
   namespace stm {

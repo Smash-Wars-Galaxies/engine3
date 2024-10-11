@@ -3,9 +3,9 @@
 ** See file COPYING for copying conditions.
 */
 
-#include "ManagedReference.h"
-#include "TaskManager.h"
-#include "TaskManagerImpl.h"
+#include "engine/core/ManagedReference.h"
+#include "engine/core/TaskManager.h"
+#include "engine/core/TaskManagerImpl.h"
 
 #include "engine/lua/Lua.h"
 

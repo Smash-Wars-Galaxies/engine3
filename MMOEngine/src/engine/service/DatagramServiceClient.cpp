@@ -7,7 +7,7 @@
 
 #include "engine/stm/TransactionalMemoryManager.h"
 
-#include "DatagramServiceClient.h"
+#include "engine/service/DatagramServiceClient.h"
 
 DatagramServiceClient::DatagramServiceClient()
 		: ServiceClient() {

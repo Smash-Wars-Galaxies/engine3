@@ -12,7 +12,7 @@
 #ifndef SYNCHRONIZEDVECTORMAP_H_
 #define SYNCHRONIZEDVECTORMAP_H_
 
-#include "VectorMap.h"
+#include "system/util/VectorMap.h"
 
 #include "system/thread/ReadWriteLock.h"
 #include "system/thread/Locker.h"

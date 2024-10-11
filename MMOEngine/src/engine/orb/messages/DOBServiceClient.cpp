@@ -5,9 +5,9 @@
 
 #include "engine/orb/DistributedObjectBroker.h"
 
-#include "RemoteObjectBroker.h"
+#include "engine/orb/messages/RemoteObjectBroker.h"
 
-#include "DOBServiceHandler.h"
+#include "engine/orb/messages/DOBServiceHandler.h"
 
 DOBServiceClient::DOBServiceClient(Socket* sock)
 		: StreamServiceClient(sock), Logger("DistributedObjectBroker") {

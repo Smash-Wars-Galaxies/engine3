@@ -15,7 +15,7 @@
 #include "system/thread/Locker.h"
 #include "system/thread/atomic/AtomicReference.h"
 #include "system/lang/Object.h"
-#include "StrongAndWeakReferenceCount.h"
+#include "system/lang/ref/StrongAndWeakReferenceCount.h"
 
 //#define ENABLE_THREAD_SAFE_MUTEX_WEAK
 

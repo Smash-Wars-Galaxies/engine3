@@ -5,15 +5,15 @@
 
 #include "engine/orb/DistributionException.h"
 
-#include "DOBServiceClient.h"
+#include "engine/orb/messages/DOBServiceClient.h"
 
-#include "DeployObjectMessage.h"
-#include "InvokeMethodMessage.h"
-#include "LookUpObjectMessage.h"
-#include "LookUpObjectByIDMessage.h"
-#include "UndeployObjectMessage.h"
-#include "RequestServantMessage.h"
-#include "GetNextFreeObjectIDMessage.h"
+#include "engine/orb/messages/DeployObjectMessage.h"
+#include "engine/orb/messages/InvokeMethodMessage.h"
+#include "engine/orb/messages/LookUpObjectMessage.h"
+#include "engine/orb/messages/LookUpObjectByIDMessage.h"
+#include "engine/orb/messages/UndeployObjectMessage.h"
+#include "engine/orb/messages/RequestServantMessage.h"
+#include "engine/orb/messages/GetNextFreeObjectIDMessage.h"
 
 RemoteObjectBroker::RemoteObjectBroker(const String& address, int port) : Logger("RemoteObjectBroker") {
 	brokerClient = new DOBServiceClient(address, port);

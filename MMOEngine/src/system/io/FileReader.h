@@ -5,11 +5,11 @@
 #ifndef FILEREADER_H_
 #define FILEREADER_H_
 
-#include "File.h"
+#include "system/io/File.h"
 
-#include "Reader.h"
+#include "system/io/Reader.h"
 
-#include "FileNotFoundException.h"
+#include "system/io/FileNotFoundException.h"
 
 namespace sys {
   namespace io {
